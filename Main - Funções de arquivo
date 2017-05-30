@@ -108,7 +108,7 @@ void login(){
             break;
 
             default:
-            printf("Opc„o inv·lida!\n");
+            printf("Opc√£o inv√°lida!\n");
             break;
 
     }
@@ -160,7 +160,7 @@ int  consulta_gerente(){
     arquivo = fopen("gerente.txt", "rb");
 
     if(arquivo==NULL){
-        printf("N„o foi possÌvel abrir o arquivo");
+        printf("N√£o foi poss√≠vel abrir o arquivo");
         system("pause");
         exit(1);
 
@@ -199,7 +199,7 @@ void insere_gerente(){
     arquivo = fopen("gerente.txt","ab");
 
     if(arquivo==NULL){
-        printf("N„o foi possÌvel abrir o arquivo");
+        printf("N√£o foi poss√≠vel abrir o arquivo");
         system("pause");
         exit(1);
 
@@ -247,7 +247,7 @@ int  consulta_estoquista(){
     arquivo = fopen("estoquista.txt", "rb");
 
     if(arquivo==NULL){
-        printf("N„o foi possÌvel abrir o arquivo");
+        printf("N√£o foi poss√≠vel abrir o arquivo");
         system("pause");
         exit(1);
 
@@ -286,7 +286,7 @@ void insere_estoquista(){
     arquivo = fopen("estoquista.txt","ab");
 
     if(arquivo==NULL){
-        printf("N„o foi possÌvel abrir o arquivo");
+        printf("N√£o foi poss√≠vel abrir o arquivo");
         system("pause");
         exit(1);
 
@@ -334,7 +334,7 @@ int  consulta_vendedor(){
     arquivo = fopen("vendedor.txt", "rb");
 
     if(arquivo==NULL){
-        printf("N„o foi possÌvel abrir o arquivo");
+        printf("N√£o foi poss√≠vel abrir o arquivo");
         system("pause");
         exit(1);
 
@@ -373,7 +373,7 @@ void insere_vendedor(){
     arquivo = fopen("vendedor.txt","ab");
 
     if(arquivo==NULL){
-        printf("N„o foi possÌvel abrir o arquivo");
+        printf("N√£o foi poss√≠vel abrir o arquivo");
         system("pause");
         exit(1);
 
