@@ -57,7 +57,7 @@ Produto* cria_prod(Produto *l){
     scanf("%[^\n]s", p->nome);
     fflush(stdin);
 
-   /* printf("MARCA: ");
+    printf("MARCA: ");
     scanf("%[^\n]s",p->marca);
     fflush(stdin);
 
@@ -78,7 +78,6 @@ Produto* cria_prod(Produto *l){
 
     printf("PRECO: R$ ");
     scanf("%f", &p->valor);
-    */
 
     system("cls");
     printf("\nProduto cadastrado com sucesso\n");
@@ -113,7 +112,7 @@ Produto* rmv_prod(Produto* l){
     char nome[20];
 
     if(p == NULL){
-        printf("Não existe produto nessa lista.\n");
+        printf("NÃ£o existe produto nessa lista.\n");
         return 0;
     }
 
